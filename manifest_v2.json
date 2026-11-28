@@ -3,17 +3,18 @@
     "id": "979873697298",
     "restype": "watchface",
     "name": "觅时",
-    "description": "复刻苹果精准时图，采用Lua全动态60fps，吊打小米运动健康“时间交错lite”（没有夸张）\n核心配置：\n手表端60fps，内存仅占1.5 MB到2MB（看机型区分），分秒刻度环公转自转，颜色自定义通过手机端APK配置（电脑亦可，无网络请求），颜色自定义包括1677万种颜色（整个色谱，效果如图），8个自定义板块（时分秒环，时分秒针，数字时间，背景）独立调节，无限次数生成\n配置对比（VS小米运动健康时间交错lite）\n\n                            觅时              时间交错lite\n帧数                      60fps            1fps\n颜色自定义数量     1677w           12（注意单位不同）\n独立调整模块数     8个               1个\n价格                      2.5r               3r\n\n额外提示：1.现在购买进入QQ群有大肥鱼24*7免费闲聊（deepv4.1flash high 1M+seedance语音生成）❤️❤️\n\n2.预览版5分钟后自动黑屏，可通过付费完整版解除\n\n3.爱发电购买后请看爱发电私信，加Q群获取安卓apk",
+    "description": "# 觅时\n\n一块把时间拆成三层的刻度环表盘：环在走，针在转，数字在跳。\n\n## 设计\n\n以刻度环作为时间的主视觉，致敬经典「精准时图」表盘布局：\n刻度环的匀速转动与指针的位移叠加在一起，时间不再是静止的一张图，而是有节奏的机械运动。\n\n## 特性\n\n- **60 FPS 动态**：分、秒刻度环每秒更新 60 次，指针连续推进，无跳帧\n- **轻量**：表盘体积约 0.5–2 MB（随屏幕规格不同），运行内存占用低，长时间佩戴不发热\n- **8 个模块独立调色**：时环 / 分环 / 秒环 / 时针 / 分针 / 秒针 / 数字 / 背景，每个模块单独取色，约 1677 万色可选\n- **配色工具**：附手机端配色工具（Android 7 及以上，离线运行），选型号 → 调色 → 生成专属表盘，生成次数不限\n- **多屏幕规格**：圆屏、方屏、胶囊屏共 6 种规格，按屏幕比例分别适配，不拉伸、不裁切\n\n## 支持设备\n\n| 屏幕规格 | 设备 |\n| --- | --- |\n| 432 × 514 | 红米手表 5 / 6 |\n| 466 × 466 | 小米手表 S3 / S4 / S4 41mm / S5 41mm |\n| 480 × 480 | 小米手表 S5 |\n| 336 × 480 | 小米手环 9 Pro / 10 Pro |\n| 192 × 490 | 小米手环 9 |\n| 212 × 520 | 小米手环 10 |\n\n## 获取与解锁\n\n本资源为**付费资源**。\n\n- 购买后在爱发电复制订单号在apk线上验证激活（一单一码）。\n- 配色工具内含**试用版**：安装后正常显示 5 分钟，随后自动息屏；切换表盘无法恢复，需卸载重装试用版。可在购买前完整体验动态效果。\n- 配色工具无需联网，生成的 `.face` 文件直接保存到手机「下载」目录。\n\n## 使用步骤\n\n1. 安装配色工具，选择自己的设备型号\n2. 逐个调整 8 个模块的颜色（也可只用默认白色）\n3. 点「打包下载」，得到 `.face` 文件\n4. 用 AstroBox 或表盘自定义安装\n\n## 说明\n\n- 表盘为纯 Lua 实现，运行时不联网，不读取、不上传任何用户数据。\n- 配色工具离线运行，不包含统计、追踪或广告组件。\n- 下方预览版为默认配色\n\n## 更新日志\n\n### 1.0.0\n\n- 首个版本：6 种屏幕规格适配，8 模块独立配色，配色工具同步发布。",
     "preview": [
-      "media/觅时_手环10Pro_336.gif",
-      "media/觅时_RW6_432.gif",
-      "media/觅时_S5_480.gif",
-      "media/觅时_手环10_212.gif",
-      "media/231ec6f6bed9fc0583e6701432e5d6a3.jpg",
-      "media/2e05780f65e178599b6d95ade3953ae4.jpg"
+      "media/觅时_480_手表S5.webp",
+      "media/觅时_212_手环10.webp",
+      "media/觅时_336_手环9Pro-10Pro.webp",
+      "media/觅时_432_红米手表5-6.webp",
+      "media/ece6f8cde64b3f675137c327a19f628b.jpg",
+      "media/9e91c4a6163e7acbf81ae27519c2766c.jpg",
+      "media/798f6169569cc2207d84bba0ffeb6b02.jpg"
     ],
-    "icon": "media/App图标_方形.png",
-    "cover": "media/觅时_封面_1200x800.png",
+    "icon": "media/觅时_图标_方形_480.png",
+    "cover": "media/觅时海报.png",
     "author": [
       {
         "name": "v9439",
@@ -21,76 +22,87 @@
       }
     ]
   },
-  "links": [],
+  "links": [
+    {
+      "title": "APK下载（网盘）",
+      "url": "https://www.ilanzou.com/s/Xyoyr30ys",
+      "icon": "cloud-arrow-up"
+    },
+    {
+      "title": "交流QQ群（入群问题答案：爱发电）",
+      "url": "https://qun.qq.com/universal-share/share?ac=1&authKey=%2FHp%2BvcRSLC0wlZge3ZSfES6gEZdRa18iDxtNOBP9VQcVmQhkicGbb9xE4NyI2ZuM&busi_data=eyJncm91cENvZGUiOiIxMDk1MzkxNzIzIiwidG9rZW4iOiIwRjV4ajZSZ1hESHNlSWJTZE9Gb1hEU21qTTRYSWlhRU5kRWRmNitpSTRDa3dRWEJtVVJyS2dWTlpzc056YmxNIiwidWluIjoiMTAxOTYzNTUyMSJ9&data=T4PoOrGDpSWpMNEE161oVcN0BcXotobfLeYkZLs0Schxn9baZYrjZRmY-6mjo10Wubo_UH9qenT1nbbUlrCB_w&svctype=4&tempid=h5_group_info",
+      "icon": "chat-circle"
+    }
+  ],
   "downloads": {
     "xmrw6": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_432_红米手表5-6_彩色.face",
+      "file_name": "downloads/觅时_432_红米手表5-6_彩色.face",
       "versionCode": 2560
     },
     "xmb10": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_212_手环10_彩色.face",
+      "file_name": "downloads/觅时_212_手环10_彩色.face",
       "versionCode": 2560
     },
     "xmb10nfc": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_212_手环10_彩色.face",
+      "file_name": "downloads/觅时_212_手环10_彩色.face",
       "versionCode": 2560
     },
     "xmb10p": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_336_手环9Pro-10Pro_彩色.face",
+      "file_name": "downloads/觅时_336_手环9Pro-10Pro_彩色.face",
       "versionCode": 2560
     },
     "xmb11": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_336_手环9Pro-10Pro_彩色.face",
+      "file_name": "downloads/觅时_212_手环10_彩色.face",
       "versionCode": 2560
     },
     "xmb11nfc": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_212_手环10_彩色.face",
+      "file_name": "downloads/觅时_212_手环10_彩色.face",
       "versionCode": 2560
     },
     "xmb9": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_192_手环9_彩色.face",
+      "file_name": "downloads/觅时_192_手环9_彩色.face",
       "versionCode": 2560
     },
     "xmb9p": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_336_手环9Pro-10Pro_彩色.face",
+      "file_name": "downloads/觅时_336_手环9Pro-10Pro_彩色.face",
       "versionCode": 2560
     },
     "xmws3": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_466_手表S3-S4-S5-41mm_彩色.face",
+      "file_name": "downloads/觅时_466_手表S3-S4-S5-41mm_彩色.face",
       "versionCode": 2560
     },
     "xmws4xring": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_466_手表S3-S4-S5-41mm_彩色.face",
+      "file_name": "downloads/觅时_466_手表S3-S4-S5-41mm_彩色.face",
       "versionCode": 2560
     },
     "xmws441": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_466_手表S3-S4-S5-41mm_彩色.face",
+      "file_name": "downloads/觅时_466_手表S3-S4-S5-41mm_彩色.face",
       "versionCode": 2560
     },
     "xmws4": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_466_手表S3-S4-S5-41mm_彩色.face",
+      "file_name": "downloads/觅时_466_手表S3-S4-S5-41mm_彩色.face",
       "versionCode": 2560
     },
     "xmws541": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_480_手表S5_彩色.face",
+      "file_name": "downloads/觅时_466_手表S3-S4-S5-41mm_彩色.face",
       "versionCode": 2560
     },
     "xmws5": {
       "version": "0.10.0",
-      "file_name": "downloads/时迹_480_手表S5_彩色.face",
+      "file_name": "downloads/觅时_466_手表S3-S4-S5-41mm_彩色.face",
       "versionCode": 2560
     }
   },
@@ -98,77 +110,74 @@
     "trialDownloads": {
       "xmrw6": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_432_红米手表5-6_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_432_红米手表5-6_预览版.face",
         "versionCode": 2560
       },
       "xmb10": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_212_手环10_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_212_手环10_预览版.face",
         "versionCode": 2560
       },
       "xmb10nfc": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_212_手环10_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_212_手环10_预览版.face",
         "versionCode": 2560
       },
       "xmb10p": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_336_手环9Pro-10Pro_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_336_手环9Pro-10Pro_预览版.face",
         "versionCode": 2560
       },
       "xmb11": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_212_手环10_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_212_手环10_预览版.face",
         "versionCode": 2560
       },
       "xmb11nfc": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_212_手环10_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_212_手环10_预览版.face",
         "versionCode": 2560
       },
       "xmb9": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_192_手环9_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_192_手环9_预览版.face",
         "versionCode": 2560
       },
       "xmb9p": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_336_手环9Pro-10Pro_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_336_手环9Pro-10Pro_预览版.face",
         "versionCode": 2560
       },
       "xmws3": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_466_手表S3-S4_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_466_手表S3-S4-S5-41mm_预览版.face",
         "versionCode": 2560
       },
       "xmws4xring": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_466_手表S3-S4_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_466_手表S3-S4-S5-41mm_预览版.face",
         "versionCode": 2560
       },
       "xmws441": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_466_手表S3-S4_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_466_手表S3-S4-S5-41mm_预览版.face",
         "versionCode": 2560
       },
       "xmws4": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_466_手表S3-S4_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_466_手表S3-S4-S5-41mm_预览版.face",
         "versionCode": 2560
       },
       "xmws541": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_480_手表S5_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_466_手表S3-S4-S5-41mm_预览版.face",
         "versionCode": 2560
       },
       "xmws5": {
         "version": "0.10.0",
-        "file_name": "downloads/trial/时迹_480_手表S5_预览版_v9.face",
+        "file_name": "downloads/trial/觅时_480_手表S5_预览版_v8.face",
         "versionCode": 2560
       }
-    },
-    "wallpaperGenerator": {
-      "configUrl": "https://raw.githubusercontent.com/home-V/astrobox-resource-979873697298/main/wallpaper/wallpaper.json"
     }
   }
 }
